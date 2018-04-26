@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>New Cancer Cases / Kansas Pop 99-2016</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="cd2679f2-405e-4dc8-a9ae-a6a5e09c2bdd"></div>
+        </div>
+        
+        <script type="application/json" id="d3a45a02-9055-46e9-bcc5-17e2a08e39f1">
+          {"74c63480-dd68-4e21-9344-54f675a878a2":{"roots":{"references":[{"attributes":{"format":"0.001"},"id":"321767fc-febe-42ff-80f0-772f5898c804","type":"NumeralTickFormatter"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"d419287c-4029-4789-932c-a9f9a7980717","subtype":"Figure","type":"Plot"},"ticker":{"id":"fd0e02e9-5740-40b6-8116-c66e6ec05a94","type":"CategoricalTicker"}},"id":"1a9244ab-4cec-4802-87a1-5ac7806cd06a","type":"Grid"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"e1578e1b-c59f-423c-8bd8-2fbcebb22780","type":"ResetTool"},{"id":"6ec969e5-a44f-47e4-bc8e-63f03e6de700","type":"HoverTool"},{"id":"5c3d9ccc-f31b-4d6e-9730-b3b535f43a86","type":"SaveTool"}]},"id":"1d5b75be-315a-4bd5-9a39-ab9dfff095dc","type":"Toolbar"},{"attributes":{"below":[{"id":"f3969979-119c-47f9-89a6-0f3929f5a08d","type":"CategoricalAxis"}],"left":[{"id":"ed41c98b-aa68-45a5-8268-19b438e5561e","type":"LinearAxis"}],"plot_height":650,"plot_width":1100,"renderers":[{"id":"f3969979-119c-47f9-89a6-0f3929f5a08d","type":"CategoricalAxis"},{"id":"1a9244ab-4cec-4802-87a1-5ac7806cd06a","type":"Grid"},{"id":"ed41c98b-aa68-45a5-8268-19b438e5561e","type":"LinearAxis"},{"id":"a7e220dd-001f-4705-bca7-cc841005a075","type":"Grid"},{"id":"6b41c600-fff6-4b12-a42a-9cee2cd79e75","type":"GlyphRenderer"}],"sizing_mode":"stretch_both","title":{"id":"b8130228-f4bc-498d-a4c4-6619c039ad85","type":"Title"},"toolbar":{"id":"1d5b75be-315a-4bd5-9a39-ab9dfff095dc","type":"Toolbar"},"x_range":{"id":"a8419ac2-a6de-4ec0-bb05-d0527f2b28aa","type":"FactorRange"},"x_scale":{"id":"e6f5ac6e-e8d6-49f2-a3e3-4892c3844265","type":"CategoricalScale"},"y_range":{"id":"9ea0658c-08d7-45b8-b635-32516d87d3c3","type":"Range1d"},"y_scale":{"id":"47958224-4806-4bc8-8de1-2049686fcd96","type":"LinearScale"}},"id":"d419287c-4029-4789-932c-a9f9a7980717","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"5c3d9ccc-f31b-4d6e-9730-b3b535f43a86","type":"SaveTool"},{"attributes":{},"id":"f0edbc35-a079-4b3c-8e18-cd48bb983945","type":"CategoricalTickFormatter"},{"attributes":{"callback":null,"factors":["1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016"]},"id":"a8419ac2-a6de-4ec0-bb05-d0527f2b28aa","type":"FactorRange"},{"attributes":{},"id":"fd0e02e9-5740-40b6-8116-c66e6ec05a94","type":"CategoricalTicker"},{"attributes":{"source":{"id":"23d45234-2128-4a54-9eb9-6327d6865117","type":"ColumnDataSource"}},"id":"a949f8b1-902c-445f-bcb5-0c81964b0f09","type":"CDSView"},{"attributes":{"data_source":{"id":"23d45234-2128-4a54-9eb9-6327d6865117","type":"ColumnDataSource"},"glyph":{"id":"a27c82c7-cc55-4960-9fba-eb3594272743","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"cafd9a1c-302d-4fb9-a9ae-17fc86258e7a","type":"VBar"},"selection_glyph":null,"view":{"id":"a949f8b1-902c-445f-bcb5-0c81964b0f09","type":"CDSView"}},"id":"6b41c600-fff6-4b12-a42a-9cee2cd79e75","type":"GlyphRenderer"},{"attributes":{"plot":null,"text":"New Cancer Cases / Kansas Pop 99-2016","text_font_size":{"value":"24px"}},"id":"b8130228-f4bc-498d-a4c4-6619c039ad85","type":"Title"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"data"},"width":{"value":0.6},"x":{"field":"year"}},"id":"cafd9a1c-302d-4fb9-a9ae-17fc86258e7a","type":"VBar"},{"attributes":{},"id":"47958224-4806-4bc8-8de1-2049686fcd96","type":"LinearScale"},{"attributes":{"formatter":{"id":"321767fc-febe-42ff-80f0-772f5898c804","type":"NumeralTickFormatter"},"major_label_text_font_size":{"value":"13px"},"plot":{"id":"d419287c-4029-4789-932c-a9f9a7980717","subtype":"Figure","type":"Plot"},"ticker":{"id":"6ab1075e-9f86-4342-9cf1-e644061befb5","type":"BasicTicker"}},"id":"ed41c98b-aa68-45a5-8268-19b438e5561e","type":"LinearAxis"},{"attributes":{"formatter":{"id":"f0edbc35-a079-4b3c-8e18-cd48bb983945","type":"CategoricalTickFormatter"},"major_label_orientation":0.7853981633974483,"major_label_text_font_size":{"value":"13px"},"plot":{"id":"d419287c-4029-4789-932c-a9f9a7980717","subtype":"Figure","type":"Plot"},"ticker":{"id":"fd0e02e9-5740-40b6-8116-c66e6ec05a94","type":"CategoricalTicker"}},"id":"f3969979-119c-47f9-89a6-0f3929f5a08d","type":"CategoricalAxis"},{"attributes":{"callback":null,"tooltips":[["Stats","@data"]]},"id":"6ec969e5-a44f-47e4-bc8e-63f03e6de700","type":"HoverTool"},{"attributes":{},"id":"e6f5ac6e-e8d6-49f2-a3e3-4892c3844265","type":"CategoricalScale"},{"attributes":{"callback":null,"end":0.0055},"id":"9ea0658c-08d7-45b8-b635-32516d87d3c3","type":"Range1d"},{"attributes":{},"id":"e1578e1b-c59f-423c-8bd8-2fbcebb22780","type":"ResetTool"},{"attributes":{},"id":"6ab1075e-9f86-4342-9cf1-e644061befb5","type":"BasicTicker"},{"attributes":{"fill_color":{"field":"color"},"line_color":{"value":"white"},"top":{"field":"data"},"width":{"value":0.6},"x":{"field":"year"}},"id":"a27c82c7-cc55-4960-9fba-eb3594272743","type":"VBar"},{"attributes":{"dimension":1,"plot":{"id":"d419287c-4029-4789-932c-a9f9a7980717","subtype":"Figure","type":"Plot"},"ticker":{"id":"6ab1075e-9f86-4342-9cf1-e644061befb5","type":"BasicTicker"}},"id":"a7e220dd-001f-4705-bca7-cc841005a075","type":"Grid"},{"attributes":{"callback":null,"column_names":["year","data","color"],"data":{"color":["#1f77b4","#aec7e8","#ff7f0e","#ffbb78","#2ca02c","#98df8a","#d62728","#ff9896","#9467bd","#c5b0d5","#8c564b","#c49c94","#e377c2","#f7b6d2","#7f7f7f","#c7c7c7","#bcbd22","#dbdb8d"],"data":[0.004727558657645152,0.004733299897055367,0.004712152713271817,0.004725938674091176,0.004832163302000291,0.004872049277841757,0.004861765512609009,0.004944748891666133,0.005128628827298085,0.005162965674718206,0.0050743035629561015,0.005144772815675257,0.005245796307001213,0.005185912251786988,0.005144008042478659,0.005052528727751561,0.0050088626343703715,0.00503417557319615],"year":["1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016"]}},"id":"23d45234-2128-4a54-9eb9-6327d6865117","type":"ColumnDataSource"}],"root_ids":["d419287c-4029-4789-932c-a9f9a7980717"]},"title":"Bokeh Application","version":"0.12.13"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('d3a45a02-9055-46e9-bcc5-17e2a08e39f1').textContent;
+                  var render_items = [{"docid":"74c63480-dd68-4e21-9344-54f675a878a2","elementid":"cd2679f2-405e-4dc8-a9ae-a6a5e09c2bdd","modelid":"d419287c-4029-4789-932c-a9f9a7980717"}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>New Cancer Cases / Illinois Pop 99-2016</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="394fbc84-aca4-4cfa-8cca-ddd6feb04762"></div>
+        </div>
+        
+        <script type="application/json" id="30ea2bed-19ae-4d9b-96f6-45c2ddf2abea">
+          {"42a7f262-5ef4-463a-abd5-a4a0e495eb01":{"roots":{"references":[{"attributes":{"format":"0.001"},"id":"ff5ea36c-f391-4b91-8f04-7a252e3a69fa","type":"NumeralTickFormatter"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"e85941fe-46ac-4a83-b509-49570c933f5e","subtype":"Figure","type":"Plot"},"ticker":{"id":"1b363552-445f-4dfe-aa24-9bc484770a12","type":"CategoricalTicker"}},"id":"f81d2e34-83ad-4d33-ad52-4947b9a57eb0","type":"Grid"},{"attributes":{"dimension":1,"plot":{"id":"e85941fe-46ac-4a83-b509-49570c933f5e","subtype":"Figure","type":"Plot"},"ticker":{"id":"cb07c29f-583f-4020-918b-08396a90f805","type":"BasicTicker"}},"id":"08771e1e-92a2-49ed-abfe-142d7d6a123c","type":"Grid"},{"attributes":{},"id":"cb07c29f-583f-4020-918b-08396a90f805","type":"BasicTicker"},{"attributes":{},"id":"bb052ae5-6b7e-4308-89f7-7087d12d37ed","type":"ResetTool"},{"attributes":{"callback":null,"tooltips":[["Stats","@data"]]},"id":"9a22708b-e8b6-4641-bde8-9bf1cbd60cf3","type":"HoverTool"},{"attributes":{},"id":"1b363552-445f-4dfe-aa24-9bc484770a12","type":"CategoricalTicker"},{"attributes":{},"id":"972a358a-e761-457e-8c54-60e5532f039c","type":"CategoricalScale"},{"attributes":{"callback":null,"factors":["1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016"]},"id":"e274becb-eedf-4210-baf0-c8865f8ac819","type":"FactorRange"},{"attributes":{"source":{"id":"371959f6-0b21-432b-bea5-96b94fef5b02","type":"ColumnDataSource"}},"id":"8b0f1868-e0ae-4428-af33-6d4d4be6d634","type":"CDSView"},{"attributes":{"formatter":{"id":"63c529b4-cc49-495e-a5a7-1e04b040b405","type":"CategoricalTickFormatter"},"major_label_orientation":0.7853981633974483,"major_label_text_font_size":{"value":"13px"},"plot":{"id":"e85941fe-46ac-4a83-b509-49570c933f5e","subtype":"Figure","type":"Plot"},"ticker":{"id":"1b363552-445f-4dfe-aa24-9bc484770a12","type":"CategoricalTicker"}},"id":"ca2f67b3-52de-49ce-b82e-7d0d4ad32a6b","type":"CategoricalAxis"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"bb052ae5-6b7e-4308-89f7-7087d12d37ed","type":"ResetTool"},{"id":"9a22708b-e8b6-4641-bde8-9bf1cbd60cf3","type":"HoverTool"},{"id":"c00199f2-ef1c-42bf-b5b0-7abfe04b632b","type":"SaveTool"}]},"id":"d75d13c4-6b23-4665-9f42-286a9e7d841d","type":"Toolbar"},{"attributes":{"data_source":{"id":"371959f6-0b21-432b-bea5-96b94fef5b02","type":"ColumnDataSource"},"glyph":{"id":"4bc0d179-e92c-486a-b075-85d3b3ba4b75","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"7ad3f97f-e1ff-4ff7-8a61-ab30f4eb3c9f","type":"VBar"},"selection_glyph":null,"view":{"id":"8b0f1868-e0ae-4428-af33-6d4d4be6d634","type":"CDSView"}},"id":"853dc461-3480-4ca2-a939-3bd8b9f96a10","type":"GlyphRenderer"},{"attributes":{"below":[{"id":"ca2f67b3-52de-49ce-b82e-7d0d4ad32a6b","type":"CategoricalAxis"}],"left":[{"id":"4fea0427-f771-48d1-8a97-1b72681eb1ca","type":"LinearAxis"}],"plot_height":650,"plot_width":1100,"renderers":[{"id":"ca2f67b3-52de-49ce-b82e-7d0d4ad32a6b","type":"CategoricalAxis"},{"id":"f81d2e34-83ad-4d33-ad52-4947b9a57eb0","type":"Grid"},{"id":"4fea0427-f771-48d1-8a97-1b72681eb1ca","type":"LinearAxis"},{"id":"08771e1e-92a2-49ed-abfe-142d7d6a123c","type":"Grid"},{"id":"853dc461-3480-4ca2-a939-3bd8b9f96a10","type":"GlyphRenderer"}],"sizing_mode":"stretch_both","title":{"id":"b72cf10e-9a84-4470-bc13-91e0f35b43c6","type":"Title"},"toolbar":{"id":"d75d13c4-6b23-4665-9f42-286a9e7d841d","type":"Toolbar"},"x_range":{"id":"e274becb-eedf-4210-baf0-c8865f8ac819","type":"FactorRange"},"x_scale":{"id":"972a358a-e761-457e-8c54-60e5532f039c","type":"CategoricalScale"},"y_range":{"id":"16337361-b8be-4955-bee3-dba86512fcd3","type":"Range1d"},"y_scale":{"id":"aa42311d-0230-4b11-b7f8-434d9e8b4090","type":"LinearScale"}},"id":"e85941fe-46ac-4a83-b509-49570c933f5e","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"end":0.0055},"id":"16337361-b8be-4955-bee3-dba86512fcd3","type":"Range1d"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"data"},"width":{"value":0.6},"x":{"field":"year"}},"id":"7ad3f97f-e1ff-4ff7-8a61-ab30f4eb3c9f","type":"VBar"},{"attributes":{"formatter":{"id":"ff5ea36c-f391-4b91-8f04-7a252e3a69fa","type":"NumeralTickFormatter"},"major_label_text_font_size":{"value":"13px"},"plot":{"id":"e85941fe-46ac-4a83-b509-49570c933f5e","subtype":"Figure","type":"Plot"},"ticker":{"id":"cb07c29f-583f-4020-918b-08396a90f805","type":"BasicTicker"}},"id":"4fea0427-f771-48d1-8a97-1b72681eb1ca","type":"LinearAxis"},{"attributes":{},"id":"c00199f2-ef1c-42bf-b5b0-7abfe04b632b","type":"SaveTool"},{"attributes":{},"id":"63c529b4-cc49-495e-a5a7-1e04b040b405","type":"CategoricalTickFormatter"},{"attributes":{"plot":null,"text":"New Cancer Cases / Illinois Pop 99-2016","text_font_size":{"value":"24px"}},"id":"b72cf10e-9a84-4470-bc13-91e0f35b43c6","type":"Title"},{"attributes":{"callback":null,"column_names":["year","data","color"],"data":{"color":["#1f77b4","#aec7e8","#ff7f0e","#ffbb78","#2ca02c","#98df8a","#d62728","#ff9896","#9467bd","#c5b0d5","#8c564b","#c49c94","#e377c2","#f7b6d2","#7f7f7f","#c7c7c7","#bcbd22","#dbdb8d"],"data":[0.004761704406983726,0.004756653866714449,0.004876427769830431,0.004976385878598922,0.004854330270310479,0.0048899213671287,0.004912408921781556,0.005047392212325969,0.005120721973593609,0.00520897482222929,0.005211936942252183,0.005091405049462089,0.005183067299171304,0.005083662215798832,0.00511118283140335,0.005180175512096585,0.00510992066976962,0.005096389408937058],"year":["1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016"]}},"id":"371959f6-0b21-432b-bea5-96b94fef5b02","type":"ColumnDataSource"},{"attributes":{"fill_color":{"field":"color"},"line_color":{"value":"white"},"top":{"field":"data"},"width":{"value":0.6},"x":{"field":"year"}},"id":"4bc0d179-e92c-486a-b075-85d3b3ba4b75","type":"VBar"},{"attributes":{},"id":"aa42311d-0230-4b11-b7f8-434d9e8b4090","type":"LinearScale"}],"root_ids":["e85941fe-46ac-4a83-b509-49570c933f5e"]},"title":"Bokeh Application","version":"0.12.13"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('30ea2bed-19ae-4d9b-96f6-45c2ddf2abea').textContent;
+                  var render_items = [{"docid":"42a7f262-5ef4-463a-abd5-a4a0e495eb01","elementid":"394fbc84-aca4-4cfa-8cca-ddd6feb04762","modelid":"e85941fe-46ac-4a83-b509-49570c933f5e"}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    </body>
+</html>

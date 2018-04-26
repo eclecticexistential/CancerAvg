@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>New Cancer Cases / Rhode Island Pop 99-2016</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="b18907f8-35df-428b-a356-9695992ee1a1"></div>
+        </div>
+        
+        <script type="application/json" id="ee39c1ae-6ebd-4878-a7aa-f9ba52957fa7">
+          {"c34927f8-4462-4ceb-8c00-17b6758effbd":{"roots":{"references":[{"attributes":{"formatter":{"id":"5b2c49bb-a94b-444c-8047-81024d62b451","type":"CategoricalTickFormatter"},"major_label_orientation":0.7853981633974483,"major_label_text_font_size":{"value":"13px"},"plot":{"id":"cfd28dcf-ecc6-4f90-ae49-b4136fc69c41","subtype":"Figure","type":"Plot"},"ticker":{"id":"b7ed3090-e3a2-4c8f-a882-7ec591c01fd8","type":"CategoricalTicker"}},"id":"1319bf8f-e6e9-4ff9-9b56-030b75d0677d","type":"CategoricalAxis"},{"attributes":{},"id":"c9e5d7dd-e743-4b7d-9d3c-7648d4067707","type":"BasicTicker"},{"attributes":{"source":{"id":"4501ba0c-f2c9-478d-814b-5633c30a3066","type":"ColumnDataSource"}},"id":"1444cc9c-b8b2-4283-aa03-9b893f42a056","type":"CDSView"},{"attributes":{"callback":null,"column_names":["year","data","color"],"data":{"color":["#1f77b4","#aec7e8","#ff7f0e","#ffbb78","#2ca02c","#98df8a","#d62728","#ff9896","#9467bd","#c5b0d5","#8c564b","#c49c94","#e377c2","#f7b6d2","#7f7f7f","#c7c7c7","#bcbd22","#dbdb8d"],"data":[0.00587753579866244,0.005872786755380531,0.0058355452720637345,0.0058583764464186045,0.005634055231662718,0.005866483525175906,0.0056305926683372105,0.005913859143482809,0.006021857251623216,0.005951641843672482,0.005931783540202307,0.00551072474005881,0.005642407325717589,0.00590368807090127,0.005874497557120822,0.005737946567801712,0.005744918030292078,0.00588243120216367],"year":["1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016"]}},"id":"4501ba0c-f2c9-478d-814b-5633c30a3066","type":"ColumnDataSource"},{"attributes":{},"id":"b7ed3090-e3a2-4c8f-a882-7ec591c01fd8","type":"CategoricalTicker"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"322178c4-6837-4002-a47e-9691803a4f3c","type":"ResetTool"},{"id":"a7db7866-2cc5-41e0-aca3-4c45ed8ab575","type":"HoverTool"},{"id":"6706b181-5097-4be0-aa97-4cc9ffbb4d64","type":"SaveTool"}]},"id":"032b2194-5e2e-4322-a977-0615061801c4","type":"Toolbar"},{"attributes":{"dimension":1,"plot":{"id":"cfd28dcf-ecc6-4f90-ae49-b4136fc69c41","subtype":"Figure","type":"Plot"},"ticker":{"id":"c9e5d7dd-e743-4b7d-9d3c-7648d4067707","type":"BasicTicker"}},"id":"484d7001-0d30-414f-86b8-ec994d492423","type":"Grid"},{"attributes":{},"id":"5b2c49bb-a94b-444c-8047-81024d62b451","type":"CategoricalTickFormatter"},{"attributes":{"callback":null,"factors":["1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016"]},"id":"429e6076-3d20-4cc8-af95-d5f613cc840b","type":"FactorRange"},{"attributes":{"format":"0.001"},"id":"a3fa1905-78ec-4d6e-83f5-3309f8df4068","type":"NumeralTickFormatter"},{"attributes":{"fill_color":{"field":"color"},"line_color":{"value":"white"},"top":{"field":"data"},"width":{"value":0.6},"x":{"field":"year"}},"id":"d6adf7cd-5575-4720-affb-ea14d93fae3e","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"data"},"width":{"value":0.6},"x":{"field":"year"}},"id":"67433280-9c0f-47ec-981d-e9e6837ac0b3","type":"VBar"},{"attributes":{"below":[{"id":"1319bf8f-e6e9-4ff9-9b56-030b75d0677d","type":"CategoricalAxis"}],"left":[{"id":"e80275b1-d064-49ce-9ccb-042ebae797b0","type":"LinearAxis"}],"plot_height":650,"plot_width":1100,"renderers":[{"id":"1319bf8f-e6e9-4ff9-9b56-030b75d0677d","type":"CategoricalAxis"},{"id":"7b4a4509-f8de-4b3b-ace1-ce984be185cd","type":"Grid"},{"id":"e80275b1-d064-49ce-9ccb-042ebae797b0","type":"LinearAxis"},{"id":"484d7001-0d30-414f-86b8-ec994d492423","type":"Grid"},{"id":"096f1d46-ac06-478d-8944-4d6ae8753f1c","type":"GlyphRenderer"}],"sizing_mode":"stretch_both","title":{"id":"289a8144-d7f3-477f-b7c3-3e767e51c754","type":"Title"},"toolbar":{"id":"032b2194-5e2e-4322-a977-0615061801c4","type":"Toolbar"},"x_range":{"id":"429e6076-3d20-4cc8-af95-d5f613cc840b","type":"FactorRange"},"x_scale":{"id":"73370677-259a-4a86-a5fe-c888d3315488","type":"CategoricalScale"},"y_range":{"id":"d8b40625-bb36-41da-9d65-850359d224ae","type":"Range1d"},"y_scale":{"id":"d46e64b8-1b4e-4a5d-b67b-8493b4f6b3a6","type":"LinearScale"}},"id":"cfd28dcf-ecc6-4f90-ae49-b4136fc69c41","subtype":"Figure","type":"Plot"},{"attributes":{"formatter":{"id":"a3fa1905-78ec-4d6e-83f5-3309f8df4068","type":"NumeralTickFormatter"},"major_label_text_font_size":{"value":"13px"},"plot":{"id":"cfd28dcf-ecc6-4f90-ae49-b4136fc69c41","subtype":"Figure","type":"Plot"},"ticker":{"id":"c9e5d7dd-e743-4b7d-9d3c-7648d4067707","type":"BasicTicker"}},"id":"e80275b1-d064-49ce-9ccb-042ebae797b0","type":"LinearAxis"},{"attributes":{"callback":null,"end":0.0066},"id":"d8b40625-bb36-41da-9d65-850359d224ae","type":"Range1d"},{"attributes":{},"id":"73370677-259a-4a86-a5fe-c888d3315488","type":"CategoricalScale"},{"attributes":{"data_source":{"id":"4501ba0c-f2c9-478d-814b-5633c30a3066","type":"ColumnDataSource"},"glyph":{"id":"d6adf7cd-5575-4720-affb-ea14d93fae3e","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"67433280-9c0f-47ec-981d-e9e6837ac0b3","type":"VBar"},"selection_glyph":null,"view":{"id":"1444cc9c-b8b2-4283-aa03-9b893f42a056","type":"CDSView"}},"id":"096f1d46-ac06-478d-8944-4d6ae8753f1c","type":"GlyphRenderer"},{"attributes":{"callback":null,"tooltips":[["Stats","@data"]]},"id":"a7db7866-2cc5-41e0-aca3-4c45ed8ab575","type":"HoverTool"},{"attributes":{},"id":"6706b181-5097-4be0-aa97-4cc9ffbb4d64","type":"SaveTool"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"cfd28dcf-ecc6-4f90-ae49-b4136fc69c41","subtype":"Figure","type":"Plot"},"ticker":{"id":"b7ed3090-e3a2-4c8f-a882-7ec591c01fd8","type":"CategoricalTicker"}},"id":"7b4a4509-f8de-4b3b-ace1-ce984be185cd","type":"Grid"},{"attributes":{},"id":"322178c4-6837-4002-a47e-9691803a4f3c","type":"ResetTool"},{"attributes":{},"id":"d46e64b8-1b4e-4a5d-b67b-8493b4f6b3a6","type":"LinearScale"},{"attributes":{"plot":null,"text":"New Cancer Cases / Rhode Island Pop 99-2016","text_font_size":{"value":"24px"}},"id":"289a8144-d7f3-477f-b7c3-3e767e51c754","type":"Title"}],"root_ids":["cfd28dcf-ecc6-4f90-ae49-b4136fc69c41"]},"title":"Bokeh Application","version":"0.12.13"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('ee39c1ae-6ebd-4878-a7aa-f9ba52957fa7').textContent;
+                  var render_items = [{"docid":"c34927f8-4462-4ceb-8c00-17b6758effbd","elementid":"b18907f8-35df-428b-a356-9695992ee1a1","modelid":"cfd28dcf-ecc6-4f90-ae49-b4136fc69c41"}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    </body>
+</html>

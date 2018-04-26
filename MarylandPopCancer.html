@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>New Cancer Cases / Maryland Pop 99-2016</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="c4cddeb0-a2a3-4705-83fa-44e6a3d8aabf"></div>
+        </div>
+        
+        <script type="application/json" id="1812b91e-e643-402f-9f47-93f565de1f5e">
+          {"e4cd94e3-367a-4c31-931a-f67165fdea7a":{"roots":{"references":[{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"10b72e46-9765-44c1-8b93-a4b10f62409c","type":"ResetTool"},{"id":"e5f46492-aa2f-4723-bed4-a45fb1013d51","type":"HoverTool"},{"id":"f3b1cc24-6e17-4232-b0ab-fc445d56927d","type":"SaveTool"}]},"id":"f98af9d1-7cd3-4fd4-a669-06de7c86889a","type":"Toolbar"},{"attributes":{"callback":null,"end":0.006},"id":"aa5507ab-9af2-4858-a2ee-562994e24f2b","type":"Range1d"},{"attributes":{"formatter":{"id":"14dda684-da65-4571-849d-7f43ff48ea49","type":"CategoricalTickFormatter"},"major_label_orientation":0.7853981633974483,"major_label_text_font_size":{"value":"13px"},"plot":{"id":"816efb8f-a10e-44be-b520-a2eee271c0e0","subtype":"Figure","type":"Plot"},"ticker":{"id":"19d3799a-bd22-4fb5-a984-31eb9588fc59","type":"CategoricalTicker"}},"id":"9d6e597c-b97e-410e-8475-ac3ff4cc4d41","type":"CategoricalAxis"},{"attributes":{},"id":"950c6a3c-961b-4ea3-847c-3d4d62ee8d66","type":"LinearScale"},{"attributes":{},"id":"14dda684-da65-4571-849d-7f43ff48ea49","type":"CategoricalTickFormatter"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"816efb8f-a10e-44be-b520-a2eee271c0e0","subtype":"Figure","type":"Plot"},"ticker":{"id":"19d3799a-bd22-4fb5-a984-31eb9588fc59","type":"CategoricalTicker"}},"id":"404f9f57-2dc3-4752-9081-fe6f57dceb9f","type":"Grid"},{"attributes":{"callback":null,"tooltips":[["Stats","@data"]]},"id":"e5f46492-aa2f-4723-bed4-a45fb1013d51","type":"HoverTool"},{"attributes":{"callback":null,"column_names":["year","data","color"],"data":{"color":["#1f77b4","#aec7e8","#ff7f0e","#ffbb78","#2ca02c","#98df8a","#d62728","#ff9896","#9467bd","#c5b0d5","#8c564b","#c49c94","#e377c2","#f7b6d2","#7f7f7f","#c7c7c7","#bcbd22","#dbdb8d"],"data":[0.004717852800328251,0.004725256889713001,0.0045744025098373095,0.004862519941129209,0.004951176880170894,0.004599657288214122,0.004632375595430853,0.0046275638322505,0.004942505476342765,0.0050133993788879965,0.004979593004871573,0.004991872550816641,0.004963749349565576,0.004914323158041265,0.005088409107755339,0.004975444099806103,0.005037874590284999,0.005177805576157433],"year":["1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016"]}},"id":"3487a3ce-5cda-4f30-a75c-38f0f8a3bb7f","type":"ColumnDataSource"},{"attributes":{"source":{"id":"3487a3ce-5cda-4f30-a75c-38f0f8a3bb7f","type":"ColumnDataSource"}},"id":"3d4607d4-954f-4dc5-9d49-46bcccf08494","type":"CDSView"},{"attributes":{"formatter":{"id":"fde3d0b4-180a-4739-ae11-0ab2b8c7fd5d","type":"NumeralTickFormatter"},"major_label_text_font_size":{"value":"13px"},"plot":{"id":"816efb8f-a10e-44be-b520-a2eee271c0e0","subtype":"Figure","type":"Plot"},"ticker":{"id":"a08c9b7a-2446-47d2-abc2-d4063d965e14","type":"BasicTicker"}},"id":"f6e82e8e-9cfd-4e1f-91b1-1e7dd4bed5df","type":"LinearAxis"},{"attributes":{"below":[{"id":"9d6e597c-b97e-410e-8475-ac3ff4cc4d41","type":"CategoricalAxis"}],"left":[{"id":"f6e82e8e-9cfd-4e1f-91b1-1e7dd4bed5df","type":"LinearAxis"}],"plot_height":650,"plot_width":1100,"renderers":[{"id":"9d6e597c-b97e-410e-8475-ac3ff4cc4d41","type":"CategoricalAxis"},{"id":"404f9f57-2dc3-4752-9081-fe6f57dceb9f","type":"Grid"},{"id":"f6e82e8e-9cfd-4e1f-91b1-1e7dd4bed5df","type":"LinearAxis"},{"id":"e686148c-617f-4bcd-b21a-4760bb82ecc0","type":"Grid"},{"id":"0657123e-4746-410d-8dc8-92f6f10b1af0","type":"GlyphRenderer"}],"sizing_mode":"stretch_both","title":{"id":"7146d615-c3fe-42b4-a5b4-7d49fabb1e22","type":"Title"},"toolbar":{"id":"f98af9d1-7cd3-4fd4-a669-06de7c86889a","type":"Toolbar"},"x_range":{"id":"e92720f2-1ee6-415a-9daa-3a803e5a5246","type":"FactorRange"},"x_scale":{"id":"3eb5110b-cffe-4332-ad92-e33e1389d35b","type":"CategoricalScale"},"y_range":{"id":"aa5507ab-9af2-4858-a2ee-562994e24f2b","type":"Range1d"},"y_scale":{"id":"950c6a3c-961b-4ea3-847c-3d4d62ee8d66","type":"LinearScale"}},"id":"816efb8f-a10e-44be-b520-a2eee271c0e0","subtype":"Figure","type":"Plot"},{"attributes":{"data_source":{"id":"3487a3ce-5cda-4f30-a75c-38f0f8a3bb7f","type":"ColumnDataSource"},"glyph":{"id":"005f884b-e876-4451-913c-815b043348e1","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"4a275e38-e5d7-4bee-ad84-19637f0cd326","type":"VBar"},"selection_glyph":null,"view":{"id":"3d4607d4-954f-4dc5-9d49-46bcccf08494","type":"CDSView"}},"id":"0657123e-4746-410d-8dc8-92f6f10b1af0","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"data"},"width":{"value":0.6},"x":{"field":"year"}},"id":"4a275e38-e5d7-4bee-ad84-19637f0cd326","type":"VBar"},{"attributes":{},"id":"3eb5110b-cffe-4332-ad92-e33e1389d35b","type":"CategoricalScale"},{"attributes":{"plot":null,"text":"New Cancer Cases / Maryland Pop 99-2016","text_font_size":{"value":"24px"}},"id":"7146d615-c3fe-42b4-a5b4-7d49fabb1e22","type":"Title"},{"attributes":{"callback":null,"factors":["1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016"]},"id":"e92720f2-1ee6-415a-9daa-3a803e5a5246","type":"FactorRange"},{"attributes":{},"id":"f3b1cc24-6e17-4232-b0ab-fc445d56927d","type":"SaveTool"},{"attributes":{},"id":"19d3799a-bd22-4fb5-a984-31eb9588fc59","type":"CategoricalTicker"},{"attributes":{},"id":"10b72e46-9765-44c1-8b93-a4b10f62409c","type":"ResetTool"},{"attributes":{},"id":"a08c9b7a-2446-47d2-abc2-d4063d965e14","type":"BasicTicker"},{"attributes":{"dimension":1,"plot":{"id":"816efb8f-a10e-44be-b520-a2eee271c0e0","subtype":"Figure","type":"Plot"},"ticker":{"id":"a08c9b7a-2446-47d2-abc2-d4063d965e14","type":"BasicTicker"}},"id":"e686148c-617f-4bcd-b21a-4760bb82ecc0","type":"Grid"},{"attributes":{"format":"0.001"},"id":"fde3d0b4-180a-4739-ae11-0ab2b8c7fd5d","type":"NumeralTickFormatter"},{"attributes":{"fill_color":{"field":"color"},"line_color":{"value":"white"},"top":{"field":"data"},"width":{"value":0.6},"x":{"field":"year"}},"id":"005f884b-e876-4451-913c-815b043348e1","type":"VBar"}],"root_ids":["816efb8f-a10e-44be-b520-a2eee271c0e0"]},"title":"Bokeh Application","version":"0.12.13"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1812b91e-e643-402f-9f47-93f565de1f5e').textContent;
+                  var render_items = [{"docid":"e4cd94e3-367a-4c31-931a-f67165fdea7a","elementid":"c4cddeb0-a2a3-4705-83fa-44e6a3d8aabf","modelid":"816efb8f-a10e-44be-b520-a2eee271c0e0"}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    </body>
+</html>

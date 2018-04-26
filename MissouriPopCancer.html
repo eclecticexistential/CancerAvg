@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>New Cancer Cases / Missouri Pop 99-2016</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="bce62521-ce8e-4f9e-9b93-05bf9c8889fe"></div>
+        </div>
+        
+        <script type="application/json" id="6520ac93-da30-4b29-aa54-b3d465ed7043">
+          {"67b20b63-32df-4838-9c99-e759e83975f0":{"roots":{"references":[{"attributes":{"dimension":1,"plot":{"id":"f49d0aae-6546-4c78-8d18-7f05ba5e32ac","subtype":"Figure","type":"Plot"},"ticker":{"id":"8def21c6-8eda-4bc5-bf74-4ea550c2d6f5","type":"BasicTicker"}},"id":"b2ed64d9-26c8-4a2f-a3a5-2e743eefcde8","type":"Grid"},{"attributes":{"callback":null,"tooltips":[["Stats","@data"]]},"id":"cadb187c-6751-4b10-90d1-e0bc85c3ccef","type":"HoverTool"},{"attributes":{},"id":"a0c44215-52b2-4b60-92bc-046391106209","type":"SaveTool"},{"attributes":{"source":{"id":"b4bf957c-b940-4c58-b586-183d4339c5e8","type":"ColumnDataSource"}},"id":"11252897-f3b7-4887-bd08-7725cb7f7d6c","type":"CDSView"},{"attributes":{},"id":"26662464-a033-4a02-8ce3-7c76857d0ed9","type":"ResetTool"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"f49d0aae-6546-4c78-8d18-7f05ba5e32ac","subtype":"Figure","type":"Plot"},"ticker":{"id":"4d50272c-e0fc-4b93-937e-18d06fc07cff","type":"CategoricalTicker"}},"id":"c729d2b9-5242-47b3-9318-545ea946d118","type":"Grid"},{"attributes":{"format":"0.001"},"id":"860f3e2a-2540-4e03-8473-6cf083a78bf2","type":"NumeralTickFormatter"},{"attributes":{"fill_color":{"field":"color"},"line_color":{"value":"white"},"top":{"field":"data"},"width":{"value":0.6},"x":{"field":"year"}},"id":"3f240fb5-a3ab-4a6a-98fb-b3054adf180e","type":"VBar"},{"attributes":{"plot":null,"text":"New Cancer Cases / Missouri Pop 99-2016","text_font_size":{"value":"24px"}},"id":"d180fb2a-4239-4576-baec-5d548f16545d","type":"Title"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"26662464-a033-4a02-8ce3-7c76857d0ed9","type":"ResetTool"},{"id":"cadb187c-6751-4b10-90d1-e0bc85c3ccef","type":"HoverTool"},{"id":"a0c44215-52b2-4b60-92bc-046391106209","type":"SaveTool"}]},"id":"c7e8e90f-7af7-4b53-af35-dd8528f93e16","type":"Toolbar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"data"},"width":{"value":0.6},"x":{"field":"year"}},"id":"9a496c68-8a60-4d0c-9a06-9182ba83e252","type":"VBar"},{"attributes":{"below":[{"id":"b3663238-1947-4347-bff2-d425f3ad9a61","type":"CategoricalAxis"}],"left":[{"id":"f4b4ae22-deeb-4b8a-b9e7-75a47e51824c","type":"LinearAxis"}],"plot_height":650,"plot_width":1100,"renderers":[{"id":"b3663238-1947-4347-bff2-d425f3ad9a61","type":"CategoricalAxis"},{"id":"c729d2b9-5242-47b3-9318-545ea946d118","type":"Grid"},{"id":"f4b4ae22-deeb-4b8a-b9e7-75a47e51824c","type":"LinearAxis"},{"id":"b2ed64d9-26c8-4a2f-a3a5-2e743eefcde8","type":"Grid"},{"id":"2052516c-f75d-4327-b9cb-3fd44239c8ce","type":"GlyphRenderer"}],"sizing_mode":"stretch_both","title":{"id":"d180fb2a-4239-4576-baec-5d548f16545d","type":"Title"},"toolbar":{"id":"c7e8e90f-7af7-4b53-af35-dd8528f93e16","type":"Toolbar"},"x_range":{"id":"b80c4924-4a2a-4a1c-96ca-fafe030fa4d8","type":"FactorRange"},"x_scale":{"id":"eb606f74-9fdf-4593-986a-7279ace7c90b","type":"CategoricalScale"},"y_range":{"id":"5453fce5-c09f-431a-b686-5654a8d936c3","type":"Range1d"},"y_scale":{"id":"a2eab08c-3140-44cc-9011-ba394ab41787","type":"LinearScale"}},"id":"f49d0aae-6546-4c78-8d18-7f05ba5e32ac","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"a2eab08c-3140-44cc-9011-ba394ab41787","type":"LinearScale"},{"attributes":{"callback":null,"factors":["1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016"]},"id":"b80c4924-4a2a-4a1c-96ca-fafe030fa4d8","type":"FactorRange"},{"attributes":{"formatter":{"id":"3f8bb52c-f125-4691-bf69-93bb1998aa27","type":"CategoricalTickFormatter"},"major_label_orientation":0.7853981633974483,"major_label_text_font_size":{"value":"13px"},"plot":{"id":"f49d0aae-6546-4c78-8d18-7f05ba5e32ac","subtype":"Figure","type":"Plot"},"ticker":{"id":"4d50272c-e0fc-4b93-937e-18d06fc07cff","type":"CategoricalTicker"}},"id":"b3663238-1947-4347-bff2-d425f3ad9a61","type":"CategoricalAxis"},{"attributes":{"data_source":{"id":"b4bf957c-b940-4c58-b586-183d4339c5e8","type":"ColumnDataSource"},"glyph":{"id":"3f240fb5-a3ab-4a6a-98fb-b3054adf180e","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"9a496c68-8a60-4d0c-9a06-9182ba83e252","type":"VBar"},"selection_glyph":null,"view":{"id":"11252897-f3b7-4887-bd08-7725cb7f7d6c","type":"CDSView"}},"id":"2052516c-f75d-4327-b9cb-3fd44239c8ce","type":"GlyphRenderer"},{"attributes":{},"id":"eb606f74-9fdf-4593-986a-7279ace7c90b","type":"CategoricalScale"},{"attributes":{},"id":"8def21c6-8eda-4bc5-bf74-4ea550c2d6f5","type":"BasicTicker"},{"attributes":{"callback":null,"end":0.006},"id":"5453fce5-c09f-431a-b686-5654a8d936c3","type":"Range1d"},{"attributes":{"formatter":{"id":"860f3e2a-2540-4e03-8473-6cf083a78bf2","type":"NumeralTickFormatter"},"major_label_text_font_size":{"value":"13px"},"plot":{"id":"f49d0aae-6546-4c78-8d18-7f05ba5e32ac","subtype":"Figure","type":"Plot"},"ticker":{"id":"8def21c6-8eda-4bc5-bf74-4ea550c2d6f5","type":"BasicTicker"}},"id":"f4b4ae22-deeb-4b8a-b9e7-75a47e51824c","type":"LinearAxis"},{"attributes":{},"id":"4d50272c-e0fc-4b93-937e-18d06fc07cff","type":"CategoricalTicker"},{"attributes":{},"id":"3f8bb52c-f125-4691-bf69-93bb1998aa27","type":"CategoricalTickFormatter"},{"attributes":{"callback":null,"column_names":["year","data","color"],"data":{"color":["#1f77b4","#aec7e8","#ff7f0e","#ffbb78","#2ca02c","#98df8a","#d62728","#ff9896","#9467bd","#c5b0d5","#8c564b","#c49c94","#e377c2","#f7b6d2","#7f7f7f","#c7c7c7","#bcbd22","#dbdb8d"],"data":[0.004981707847682143,0.0049045126117185055,0.0050195510058069805,0.0050472040988048085,0.005061124604446385,0.005030150105928573,0.005289363245427698,0.005283512565414918,0.005294166803111346,0.005253281781848358,0.005400691954220438,0.005251288681285619,0.005403465584975311,0.005392278242951419,0.005298568362336499,0.005348602458480428,0.005722137743141354,0.005639238171340032],"year":["1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016"]}},"id":"b4bf957c-b940-4c58-b586-183d4339c5e8","type":"ColumnDataSource"}],"root_ids":["f49d0aae-6546-4c78-8d18-7f05ba5e32ac"]},"title":"Bokeh Application","version":"0.12.13"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('6520ac93-da30-4b29-aa54-b3d465ed7043').textContent;
+                  var render_items = [{"docid":"67b20b63-32df-4838-9c99-e759e83975f0","elementid":"bce62521-ce8e-4f9e-9b93-05bf9c8889fe","modelid":"f49d0aae-6546-4c78-8d18-7f05ba5e32ac"}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    </body>
+</html>

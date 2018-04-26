@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>New Cancer Cases / Michigan Pop 99-2016</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="9db6d20d-9ecd-4a82-800e-ed3342c26af8"></div>
+        </div>
+        
+        <script type="application/json" id="444930e8-ea4e-4608-b9d5-aaac358f84ed">
+          {"a109f29c-bcb0-44c2-98b2-0a18621f2bf1":{"roots":{"references":[{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"4d918aa5-27a3-4035-b568-7f43fc4b04b9","type":"ResetTool"},{"id":"d24c0d6e-77f3-4408-86dc-21c3ae853d39","type":"HoverTool"},{"id":"d50f039f-64ab-4279-aeae-f077499bf5d2","type":"SaveTool"}]},"id":"24e7ff7a-d20e-40b8-9486-19785454b137","type":"Toolbar"},{"attributes":{"callback":null,"end":0.006},"id":"6e9f6c0a-5a4a-41e7-bccd-bd7c0d505194","type":"Range1d"},{"attributes":{"formatter":{"id":"7167c265-9e2b-422f-9fcf-1b448bfed1a9","type":"CategoricalTickFormatter"},"major_label_orientation":0.7853981633974483,"major_label_text_font_size":{"value":"13px"},"plot":{"id":"6b7a72c9-98e2-43de-a832-6e3dff0c7bbd","subtype":"Figure","type":"Plot"},"ticker":{"id":"8ad23a16-9d95-4705-bfd7-1a14f9f94361","type":"CategoricalTicker"}},"id":"005c8335-014e-4945-8587-7846f5c3c977","type":"CategoricalAxis"},{"attributes":{},"id":"1c79a6d3-a7d4-418a-8d08-44f56fa9c632","type":"LinearScale"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"6b7a72c9-98e2-43de-a832-6e3dff0c7bbd","subtype":"Figure","type":"Plot"},"ticker":{"id":"8ad23a16-9d95-4705-bfd7-1a14f9f94361","type":"CategoricalTicker"}},"id":"3cde27c6-e417-41e3-8f71-2045af095802","type":"Grid"},{"attributes":{},"id":"5f942542-6080-473c-a9eb-563aded3b0f1","type":"CategoricalScale"},{"attributes":{"source":{"id":"7e8cada2-7226-4dfe-875c-eb9ea5211a4d","type":"ColumnDataSource"}},"id":"cc1ce99d-7299-49c8-b6d2-33d76806961c","type":"CDSView"},{"attributes":{"formatter":{"id":"c3d575d0-5dfb-4670-9400-ca5ec630386a","type":"NumeralTickFormatter"},"major_label_text_font_size":{"value":"13px"},"plot":{"id":"6b7a72c9-98e2-43de-a832-6e3dff0c7bbd","subtype":"Figure","type":"Plot"},"ticker":{"id":"d3690923-e852-4629-9aa2-cc04c043cb60","type":"BasicTicker"}},"id":"3beb6372-db74-4b1a-b79c-055bfe96df4e","type":"LinearAxis"},{"attributes":{"below":[{"id":"005c8335-014e-4945-8587-7846f5c3c977","type":"CategoricalAxis"}],"left":[{"id":"3beb6372-db74-4b1a-b79c-055bfe96df4e","type":"LinearAxis"}],"plot_height":650,"plot_width":1100,"renderers":[{"id":"005c8335-014e-4945-8587-7846f5c3c977","type":"CategoricalAxis"},{"id":"3cde27c6-e417-41e3-8f71-2045af095802","type":"Grid"},{"id":"3beb6372-db74-4b1a-b79c-055bfe96df4e","type":"LinearAxis"},{"id":"b8847f07-ac7d-4383-9232-7f849dc3f2c4","type":"Grid"},{"id":"8e8dd73a-3005-4b30-9368-15c61ddcfa33","type":"GlyphRenderer"}],"sizing_mode":"stretch_both","title":{"id":"3fac1faf-6fa5-4663-92b0-98bf91e403b2","type":"Title"},"toolbar":{"id":"24e7ff7a-d20e-40b8-9486-19785454b137","type":"Toolbar"},"x_range":{"id":"62b87700-a83f-42e5-aaac-12a8b2181a12","type":"FactorRange"},"x_scale":{"id":"5f942542-6080-473c-a9eb-563aded3b0f1","type":"CategoricalScale"},"y_range":{"id":"6e9f6c0a-5a4a-41e7-bccd-bd7c0d505194","type":"Range1d"},"y_scale":{"id":"1c79a6d3-a7d4-418a-8d08-44f56fa9c632","type":"LinearScale"}},"id":"6b7a72c9-98e2-43de-a832-6e3dff0c7bbd","subtype":"Figure","type":"Plot"},{"attributes":{"plot":null,"text":"New Cancer Cases / Michigan Pop 99-2016","text_font_size":{"value":"24px"}},"id":"3fac1faf-6fa5-4663-92b0-98bf91e403b2","type":"Title"},{"attributes":{"data_source":{"id":"7e8cada2-7226-4dfe-875c-eb9ea5211a4d","type":"ColumnDataSource"},"glyph":{"id":"d65eefbf-edd4-4dbd-a710-cdbc5859edf0","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"ade08517-d394-4a85-8096-03cc8523a779","type":"VBar"},"selection_glyph":null,"view":{"id":"cc1ce99d-7299-49c8-b6d2-33d76806961c","type":"CDSView"}},"id":"8e8dd73a-3005-4b30-9368-15c61ddcfa33","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"data"},"width":{"value":0.6},"x":{"field":"year"}},"id":"ade08517-d394-4a85-8096-03cc8523a779","type":"VBar"},{"attributes":{"callback":null,"column_names":["year","data","color"],"data":{"color":["#1f77b4","#aec7e8","#ff7f0e","#ffbb78","#2ca02c","#98df8a","#d62728","#ff9896","#9467bd","#c5b0d5","#8c564b","#c49c94","#e377c2","#f7b6d2","#7f7f7f","#c7c7c7","#bcbd22","#dbdb8d"],"data":[0.005121188839253779,0.005146571949620446,0.005185604817077565,0.0052673250323741405,0.005289034564958284,0.005187505314353653,0.005258609050896431,0.005336943773172018,0.005588382451693202,0.00539394779614008,0.005463061441338064,0.00559825192315889,0.0056541787858136044,0.005413437344585687,0.005343464263341692,0.005305403040204689,0.005792084151659399,0.0056961316786841645],"year":["1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016"]}},"id":"7e8cada2-7226-4dfe-875c-eb9ea5211a4d","type":"ColumnDataSource"},{"attributes":{"callback":null,"factors":["1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016"]},"id":"62b87700-a83f-42e5-aaac-12a8b2181a12","type":"FactorRange"},{"attributes":{},"id":"d50f039f-64ab-4279-aeae-f077499bf5d2","type":"SaveTool"},{"attributes":{},"id":"8ad23a16-9d95-4705-bfd7-1a14f9f94361","type":"CategoricalTicker"},{"attributes":{},"id":"4d918aa5-27a3-4035-b568-7f43fc4b04b9","type":"ResetTool"},{"attributes":{"callback":null,"tooltips":[["Stats","@data"]]},"id":"d24c0d6e-77f3-4408-86dc-21c3ae853d39","type":"HoverTool"},{"attributes":{},"id":"d3690923-e852-4629-9aa2-cc04c043cb60","type":"BasicTicker"},{"attributes":{"dimension":1,"plot":{"id":"6b7a72c9-98e2-43de-a832-6e3dff0c7bbd","subtype":"Figure","type":"Plot"},"ticker":{"id":"d3690923-e852-4629-9aa2-cc04c043cb60","type":"BasicTicker"}},"id":"b8847f07-ac7d-4383-9232-7f849dc3f2c4","type":"Grid"},{"attributes":{"format":"0.001"},"id":"c3d575d0-5dfb-4670-9400-ca5ec630386a","type":"NumeralTickFormatter"},{"attributes":{},"id":"7167c265-9e2b-422f-9fcf-1b448bfed1a9","type":"CategoricalTickFormatter"},{"attributes":{"fill_color":{"field":"color"},"line_color":{"value":"white"},"top":{"field":"data"},"width":{"value":0.6},"x":{"field":"year"}},"id":"d65eefbf-edd4-4dbd-a710-cdbc5859edf0","type":"VBar"}],"root_ids":["6b7a72c9-98e2-43de-a832-6e3dff0c7bbd"]},"title":"Bokeh Application","version":"0.12.13"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('444930e8-ea4e-4608-b9d5-aaac358f84ed').textContent;
+                  var render_items = [{"docid":"a109f29c-bcb0-44c2-98b2-0a18621f2bf1","elementid":"9db6d20d-9ecd-4a82-800e-ed3342c26af8","modelid":"6b7a72c9-98e2-43de-a832-6e3dff0c7bbd"}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    </body>
+</html>
